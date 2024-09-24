@@ -3,6 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image: url('fliperama.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 header, footer {
@@ -10,6 +15,7 @@ header, footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
+    width: 100%; 
 }
 
 nav ul {
@@ -43,4 +49,21 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: left;
+}
+
+p {
+    color: white; /* Define a cor dos parágrafos como branco */
+}
+
+h1, h2, h3, h4 {
+    color: white; /* Define a cor dos cabeçalhos como branco */
+}
+
+ul, ol, li {
+    color: white; /* Define a cor do texto das listas como branco */
+}
+
+table, th, td {
+    color: white; /* Define a cor do texto das tabelas como branco */
+    border: 1px solid white; /* Coloca uma borda branca para melhor visualização */
 }
