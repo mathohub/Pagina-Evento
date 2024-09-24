@@ -67,3 +67,36 @@ table, th, td {
     color: white; /* Define a cor do texto das tabelas como branco */
     border: 1px solid white; /* Coloca uma borda branca para melhor visualização */
 }
+
+form {
+    color: white; 
+}
+
+label {
+    color: white; 
+}
+
+input, textarea, select {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: 1px solid white; /* Borda branca para os campos */
+    padding: 10px;
+    width: 100%; /* Para fazer o campo ocupar toda a largura do contêiner */
+    box-sizing: border-box; 
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ddd; 
+}
+
+button {
+    background-color: #ff4500; /* Cor do botão */
+    color: white; /* Cor do texto no botão */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5722; /* Cor do botão ao passar o mouse */
+}
