@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url('fliperama.png');
+    background-image: url('fliperama.png'); /*Imagem de fundo da tela*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
